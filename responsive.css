@@ -1,0 +1,103 @@
+@media (min-width: 900px) and (max-width: 1200px){
+    #arthurChagas{
+        font-weight: 300;
+        font-size: 30px;
+    }
+    
+    #imgCode{
+        position: absolute;
+        left: 80%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 60px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 900px){
+    #arthurChagas{
+        font-weight: 300;
+        font-size: 20px;
+    }
+
+    #desenvolvedor{
+        font-style: italic;
+        font-weight: 200;
+        text-align: center;
+        font-size: 10px;
+    }
+    
+    #imgCode{
+        position: absolute;
+        left: 80%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40px;
+    }
+
+    #textos{
+        position: absolute;
+        top: 50%;
+        left: 30px;
+        transform: translateY(-50%);
+    }
+}
+
+@media (min-width: 360px) and (max-width: 480px){
+    #arthurChagas{
+        font-weight: 300;
+        font-size: 15px;
+    }
+
+    #textos{
+        position: absolute;
+        top: 50%;
+        left: 20px;
+        transform: translateY(-50%);
+    }
+
+    #desenvolvedor{
+        font-style: italic;
+        font-weight: 200;
+        text-align: center;
+        font-size: 8px;
+    }
+    
+    #imgCode{
+        position: absolute;
+        left: 75%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40px;
+    }
+}
+
+@media (max-width: 360px){
+    #arthurChagas{
+        font-weight: 300;
+        font-size: 15px;
+    }
+
+    #textos{
+        position: absolute;
+        top: 30%;
+        translate: -50%;
+        left: 50%;
+        transform: translateY(-40%);
+    }
+
+    #desenvolvedor{
+        font-style: italic;
+        font-weight: 200;
+        text-align: center;
+        font-size: 8px;
+    }
+    
+    #imgCode{
+        position: absolute;
+        left: 50%;
+        translate: -50%;
+        top: 70%;
+        transform: translateY(-70%);
+        width: 40px;
+    }
+}

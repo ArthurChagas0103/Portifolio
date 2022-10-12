@@ -7,6 +7,7 @@
     <title>Portfolio</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='responsive.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='/front-end/base_codes/base_code.css'>
     <link rel="shortcut icon" href="/front-end/base_codes/img/AC.png" type="image/x-icon" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
@@ -16,18 +17,18 @@
 <body>
 
     <nav class="navbar navbar-expand-lg" id="navbar">
-        
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon" id="menu"><i class="fa fa-bars"></i></span>
-        </button> 
+        </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav col-12 justify-content-center">
                 <li class="nav-item active">
                     <a class="navbar-brand mr-5" href="/index.html" id="textAc">AC</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link mr-5 mt-3" href="/index.html">Home</a>
+                    <a class="nav-link mr-5 mt-3" href="/index.html" id="home">Home</a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link mr-5 mt-3" href="">About Me</a>
@@ -40,22 +41,29 @@
                 </li>
                 <li class="nav-item active">
                     <form class="form-inline mt-3">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Procurar" aria-label="Search" id="search"><a href=""><i class="fa fa-search" id="lupa"></i></a>
+                        <input class="form-control mr-sm-2" type="search" placeholder="Procurar" aria-label="Search"
+                            id="search"><a href=""><i class="fa fa-search" id="lupa"></i></a>
                     </form>
                 </li>
             </ul>
-        </div> 
-        
+        </div>
+
     </nav>
-    
+
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div id="banner"></div>
-          </div>
-      </div>
+            <div class="carousel-item active">
+                <div id="banner">
+                    <div id="textos">
+                        <h1 class="text" id="arthurChagas">Arthur Chagas</h1>
+                        <h6 class="text" id="desenvolvedor">Desenvolvedor Full-Stack</h6>
+                    </div>
+                    <img src="/front-end/base_codes/img/code.png" id="imgCode">
+                </div>
+            </div>
+        </div>
 
-      <div style="margin-top: 2000px;"></div>
+        <div style="margin-top: 2000px;"></div>
 </body>
 
 <script src='index.js'></script>
