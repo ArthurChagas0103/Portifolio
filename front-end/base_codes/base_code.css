@@ -112,6 +112,7 @@ body::-webkit-scrollbar-thumb {
     left: 50%;
     translate: -50%;
     top: 150px;
+    border-radius: 10px;
 }
 
 .text{
