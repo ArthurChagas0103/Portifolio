@@ -40,5 +40,14 @@ function findString(str) {
 	return;
 }
 
-
-
+function animacao() {
+    if (window.scrollY > 100 && window.scrollY < 1200) {
+        document.getElementById('divEu').style.visibility = 'visible';
+		document.getElementById('divEu').style.animationName = 'fadeInRightBig'; 
+    }
+	else{
+        document.getElementById('divEu').style.visibility = 'hidden';
+		document.getElementById('divEu').style.animationName = 'fadeInLeftBig'; 
+    }
+}
+window.addEventListener('scroll', animacao)

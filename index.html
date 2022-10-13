@@ -12,15 +12,15 @@
     <link rel="shortcut icon" href="/front-end/base_codes/img/AC.png" type="image/x-icon" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
 
     <nav class="navbar navbar-expand-lg" id="navbar">
-
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon" id="menu"><i class="fa fa-bars"></i></span>
+            <span class="navbar-toggler-icon" id="menu"><i class="fa fa-bars" id="barras"></i></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav col-12 justify-content-center">
@@ -42,13 +42,13 @@
                 <li class="nav-item active">
                     <form class="form-inline mt-3"
                         onSubmit="if(this.search.value!=null && this.search.value!='') findString(this.search.value);return false">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Procurar" aria-label="Search"
-                        id="search"><a onclick="findString(document.getElementById('search').value)"><i class="fa fa-search" id="lupa"></i></a>
+                        <input class="form-control mr-sm-2" type="search" placeholder="Procurar" aria-label="Search"
+                            id="search"><a onclick="findString(document.getElementById('search').value)"><i
+                                class="fa fa-search" id="lupa"></i></a>
                     </form>
                 </li>
             </ul>
         </div>
-
     </nav>
 
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
@@ -63,7 +63,73 @@
                 </div>
             </div>
         </div>
-        <div style="margin-top: 2000px;"></div>
+    </div>
+
+    <div id="softSkills">
+        <div class="softSkills">
+            <i class="fa fa-user-edit"></i>
+            <div class="janelaSoftSkills">Resiliência</div>
+        </div>
+        <div class="softSkills">
+            <i class="fa fa-users"></i>
+            <div class="janelaSoftSkills">Empatia</div>
+        </div>
+        <div class="softSkills">
+            <i class="fa fa-bullseye"></i>
+            <div class="janelaSoftSkills">Determinação</div>
+        </div>
+        <div class="softSkills">
+            <i class="fa fa-flag-checkered"></i>
+            <div class="janelaSoftSkills">Foco em Resultado</div>
+        </div>
+    </div>
+
+    <div id="linhaCinza">
+        <div id="divEu" class="animate__animated animate__fadeInRightBig">
+            <img src="/front-end/base_codes/img/Eu.png" id="imgEu">
+            <div id="divTexto">
+                <h2 class="text" id="textoArthur">Olá! Eu sou o Arthur!</h2>
+                <h6 class="text" id="textoEstudante">Estudante cursando o Ensino Médio Técnico voltado para a Tecnologia
+                    da Informação no Colégio Cotemig.
+                    Tenho bastante disposição, vontade
+                    de aprender, estou sempre aberto a
+                    novas experiências e
+                    oportunidades, sou prestativo,
+                    estudioso e aprendo com facilidade.
+                </h6>
+            </div>
+        </div>
+    </div>
+
+    <div id="divDavid">
+        <h2 id="textoDavid">“Não é a linguagem de programação que define o programador, mas sim sua lógica.”
+            <br> – David Ribeiro Guilherme
+        </h2>
+    </div>
+
+    <div id="hardSkills">
+        <div class="hardSkills">
+
+        </div>
+        
+        <div class="hardSkills">
+
+        </div>
+
+        <div class="hardSkills">
+
+        </div>
+
+        <div class="hardSkills" id="hardSkills1">
+
+        </div>
+
+        <div class="hardSkills" id="hardSkills2">
+
+        </div>
+    </div>
+
+    <div style="margin-top: 2000px;"></div>
 </body>
 
 <script src='index.js'></script>

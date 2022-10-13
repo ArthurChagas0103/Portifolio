@@ -1,21 +1,21 @@
-#arthurChagas{
+#arthurChagas {
     font-weight: 300;
 }
 
-#desenvolvedor{
+#desenvolvedor {
     font-style: italic;
     font-weight: 200;
     text-align: center;
 }
 
-#imgCode{
+#imgCode {
     position: absolute;
     left: 80%;
     top: 50%;
     transform: translateY(-50%);
 }
 
-#textos{
+#textos {
     position: absolute;
     top: 50%;
     left: 100px;
@@ -26,4 +26,141 @@
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
+}
+
+.softSkills {
+    border-radius: 10px;
+    background-color: #8284c050;
+    width: 70%;
+    height: 200px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+#softSkills {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15%;
+    grid-template-rows: 100%;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.janelaSoftSkills{
+    border-radius: 10px;
+    background-color: #8284c0cd;
+    display: none;
+    align-items: center;
+    justify-items: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+    width: 100%;
+}
+
+.softSkills:hover .janelaSoftSkills {
+    display: grid;
+    animation-name: desce;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.fa{
+    color: #8284c0;
+    position: absolute;
+    font-size: 80px;
+}
+
+.softSkills:hover .fa {
+    opacity: 0.1;
+    color: white;
+}
+
+@keyframes desce {
+    from {
+        height: 0%;
+    }
+
+    to {
+        height: 100%;
+    }
+}
+
+#linhaCinza{
+    width: 100%;
+    height: 350px;
+    background-color: #8284c050;
+    margin-top: 120px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+#divEu{
+    width: 40%;
+    background: linear-gradient(90deg, rgba(95, 81, 190, 1) 0%, rgba(127, 117, 186, 1) 100%);
+    position: absolute;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    text-align: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+
+#imgEu{
+    height: 60%;
+    border-radius: 10px;
+}
+
+#divTexto{
+    width: 40%;
+}
+
+#textoEstudante{
+    font-weight: 200;
+}
+
+#divDavid{
+    display: grid;
+    justify-items: center;
+    margin-top: 200px;
+}
+
+#textoDavid{
+    font-weight: 200;
+    width: 50%;
+    text-align: center;
+}
+
+#hardSkills{
+    display: grid;
+    justify-items: center;
+    margin-top: 200px;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.hardSkills{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #4836bf60;
+    transform: rotate(45deg);
+}
+
+#hardSkills1{
+    margin-left: 100%;
+}
+
+#hardSkills2{
+    margin-left: 100%;
 }

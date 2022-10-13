@@ -3,6 +3,7 @@
 body {
     font-family: 'Poppins', sans-serif !important;
     margin: 0;
+    overflow-x: hidden !important;
 }
 
 #textAc {
@@ -51,11 +52,6 @@ body {
     }
 }
 
-.fa {
-    color: white;
-    font-size: 30px;
-}
-
 #search {
     border-radius: 50px;
 }
@@ -92,6 +88,12 @@ body {
     margin-left: -40px;
     margin-top: -10px;
     cursor: pointer;
+}
+
+#barras{
+    color: white;
+    font-size: 30px;
+    position: relative;
 }
 
 #lupa:hover{
