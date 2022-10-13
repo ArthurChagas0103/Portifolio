@@ -150,17 +150,78 @@
 
 .hardSkills{
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 10px;
     background-color: #4836bf60;
     transform: rotate(45deg);
+    display: grid;
+    justify-items: center;
+    align-items: center;
 }
 
-#hardSkills1{
+.hardSkills1{
     margin-left: 100%;
 }
 
-#hardSkills2{
-    margin-left: 100%;
+#hardSkills3{
+    width: 100%;
+    height: 300px;
+    background-color: #8284c016;
+    margin-top: 80px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.imgHardSkills{
+    transform: rotate(-45deg);
+    color: white !important;
+}
+
+.hardSkills:hover{
+    background-color: #4836bf4b;
+    cursor: pointer;
+}
+
+.linguagens{
+    height: 100px;
+}
+
+#linguagens{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#tecnologias{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#google{
+    width: 200px;
+    height: 25px;
+}
+
+#microsoft{
+    width: 100px;
+    height: 50px;
+}
+
+.tecnologias{
+    height: 60px;
+}
+
+.textoHardSkills{
+    color: #4836bf96;
+    width: 100%;
+    text-align: center;
 }

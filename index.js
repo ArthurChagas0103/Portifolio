@@ -1,10 +1,10 @@
 function mudarCor() {
-    if (window.scrollY > 60) {
-        document.getElementById('navbar').style.backgroundColor = '#6759c2'
-    }
-    else{
-        document.getElementById('navbar').style.backgroundColor = 'rgba(43, 66, 85, 0)'
-    }
+	if (window.scrollY > 60) {
+		document.getElementById('navbar').style.backgroundColor = '#6759c2'
+	}
+	else {
+		document.getElementById('navbar').style.backgroundColor = 'rgba(43, 66, 85, 0)'
+	}
 }
 window.addEventListener('scroll', mudarCor)
 
@@ -41,13 +41,23 @@ function findString(str) {
 }
 
 function animacao() {
-    if (window.scrollY > 100 && window.scrollY < 1200) {
-        document.getElementById('divEu').style.visibility = 'visible';
-		document.getElementById('divEu').style.animationName = 'fadeInRightBig'; 
-    }
-	else{
-        document.getElementById('divEu').style.visibility = 'hidden';
-		document.getElementById('divEu').style.animationName = 'fadeInLeftBig'; 
-    }
+	if (window.scrollY > 100 && window.scrollY < 1200) {
+		document.getElementById('divEu').style.visibility = 'visible';
+		document.getElementById('divEu').style.animationName = 'fadeInRightBig';
+	}
+	else {
+		document.getElementById('divEu').style.visibility = 'hidden';
+		document.getElementById('divEu').style.animationName = 'fadeInLeftBig';
+	}
 }
 window.addEventListener('scroll', animacao)
+
+function mostrarLinguagens() {
+	document.getElementById('tecnologias').style.display = 'none';
+	document.getElementById('linguagens').style.display = 'flex';
+}
+
+function mostrarTecnologias() {
+	document.getElementById('tecnologias').style.display = 'flex';
+	document.getElementById('linguagens').style.display = 'none';
+}
