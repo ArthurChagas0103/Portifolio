@@ -81,12 +81,21 @@ body {
     transform: scaleX(1);
 }
 
+.nav-link:hover{
+    color: #f0f0f0 !important;
+}
+
 #lupa {
     position: absolute;
     color: #929CC5;
     font-size: 20px;
     margin-left: -40px;
     margin-top: -10px;
+    cursor: pointer;
+}
+
+#lupa:hover{
+    color: rgb(95, 81, 190);
 }
 
 body::-webkit-scrollbar {

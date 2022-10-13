@@ -1,0 +1,29 @@
+#arthurChagas{
+    font-weight: 300;
+}
+
+#desenvolvedor{
+    font-style: italic;
+    font-weight: 200;
+    text-align: center;
+}
+
+#imgCode{
+    position: absolute;
+    left: 80%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#textos{
+    position: absolute;
+    top: 50%;
+    left: 100px;
+    transform: translateY(-50%);
+}
+
+#about:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}

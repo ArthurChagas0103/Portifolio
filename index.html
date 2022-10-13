@@ -31,18 +31,19 @@
                     <a class="nav-link mr-5 mt-3" href="/index.html" id="home">Home</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link mr-5 mt-3" href="">About Me</a>
+                    <a class="nav-link mr-5 mt-3" href="/front-end/about/about.html">About Me</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link mr-5 mt-3" href="">Contact</a>
+                    <a class="nav-link mr-5 mt-3" href="/front-end/contact/contact.html">Contact</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link mr-5 mt-3" href="">Portfolio</a>
+                    <a class="nav-link mr-5 mt-3" href="/front-end/portfolio/portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item active">
-                    <form class="form-inline mt-3">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Procurar" aria-label="Search"
-                            id="search"><a href=""><i class="fa fa-search" id="lupa"></i></a>
+                    <form class="form-inline mt-3"
+                        onSubmit="if(this.search.value!=null && this.search.value!='') findString(this.search.value);return false">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Procurar" aria-label="Search"
+                        id="search"><a onclick="findString(document.getElementById('search').value)"><i class="fa fa-search" id="lupa"></i></a>
                     </form>
                 </li>
             </ul>
@@ -62,7 +63,6 @@
                 </div>
             </div>
         </div>
-
         <div style="margin-top: 2000px;"></div>
 </body>
 
