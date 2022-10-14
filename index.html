@@ -108,16 +108,16 @@
     </div>
 
     <div id="hardSkills">
-        <div class="hardSkills">
-
-        </div>
-        
-        <div class="hardSkills">
-
+        <div class="hardSkills" onclick="mostrarConhecimento()">
+            <i class="fa fa-brain imgHardSkills"></i>
         </div>
 
-        <div class="hardSkills">
+        <div class="hardSkills" onclick="mostrarExperiencia()">
+            <img src="/front-end/base_codes/img/gravata.png" class="imgHardSkills imgHardSkills1">
+        </div>
 
+        <div class="hardSkills" onclick="mostrarFrameworks()">
+            <img src="/front-end/base_codes/img/bootstrap.png" class="imgHardSkills imgHardSkills1">
         </div>
 
         <div class="hardSkills hardSkills1" onclick="mostrarLinguagens()">
@@ -130,6 +130,37 @@
     </div>
 
     <div id="hardSkills3">
+
+        <div id="conhecimentos">
+            <h3 class="textoHardSkills">Conhecimentos</h3>
+            <h6 class="textoExperiencia"> Solução de Problemas Técnicos / Suporte Técnico /
+                Solução de Problemas de Hardware /
+                Lógica de Programação /
+                Instalação de Softwares /
+                Montagem, Manutenção e Configuração de Computadores.</h6>
+        </div>
+
+        <div id="experiencias">
+            <h3 class="textoHardSkills">Experiências e Trabalhos Autônomos</h3>
+            <h6 class="textoExperiencia"> <strong> - Fcnet Sistemas Tecnológicos Ltda (2021 - atual):</strong>
+                Desenvolvimento de site; Gestão da
+                empresa.</h6>
+            <h6 class="textoExperiencia"> <strong> - Freelancer(2020 - Atual):</strong> Reparo, manutenção e formatação
+                de
+                dispositivos como computadores e notebooks para conhecidos e
+                parentes.</h6>
+            <h6 class="textoExperiencia"> <strong> - Freelancer (2021 - Atual):</strong> Demandas em front-end e
+                back-end, incluindo
+                APIs, dentro de aplicações web. <a href="https://www.99freelas.com.br/dashboard" target="_blank"
+                    id="freelas"><strong>(Também pela 99Freelas)</strong></a></h6>
+        </div>
+
+        <div id="frameworks">
+            <h3 class="textoHardSkills">Frameworks</h3>
+            <img src="/front-end/base_codes/img/bootstrap2.png" class="linguagens">
+            <img src="/front-end/base_codes/img/jquery.png" class="linguagens">
+        </div>
+
         <div id="linguagens">
             <h3 class="textoHardSkills">Linguagens de Programação e Suas Tecnologias</h3>
             <img src="/front-end/base_codes/img/html.png" class="linguagens">
@@ -137,7 +168,7 @@
             <img src="/front-end/base_codes/img/cSharp.png" class="linguagens">
             <img src="/front-end/base_codes/img/javascript.png" class="linguagens">
             <img src="/front-end/base_codes/img/node.png" class="linguagens">
-            <img src="/front-end/base_codes/img/mysql.png" class="linguagens">
+            <img src="/front-end/base_codes/img/mysql.png" id="mysql">
             <img src="/front-end/base_codes/img/cmaismais.png" class="linguagens">
         </div>
 
@@ -163,9 +194,10 @@
             <img src="/front-end/base_codes/img/workbench.png" class="tecnologias">
             <img src="/front-end/base_codes/img/unity.png" class="tecnologias">
         </div>
+
     </div>
 
-    <div style="margin-top: 2000px;"></div>
+    <footer id="rodape"></footer>
 </body>
 
 <script src='index.js'></script>

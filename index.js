@@ -54,10 +54,40 @@ window.addEventListener('scroll', animacao)
 
 function mostrarLinguagens() {
 	document.getElementById('tecnologias').style.display = 'none';
+	document.getElementById('frameworks').style.display = 'none';
+	document.getElementById('experiencias').style.display = 'none';
+	document.getElementById('conhecimentos').style.display = 'none';
 	document.getElementById('linguagens').style.display = 'flex';
 }
 
 function mostrarTecnologias() {
-	document.getElementById('tecnologias').style.display = 'flex';
 	document.getElementById('linguagens').style.display = 'none';
+	document.getElementById('frameworks').style.display = 'none';
+	document.getElementById('experiencias').style.display = 'none';
+	document.getElementById('conhecimentos').style.display = 'none';
+	document.getElementById('tecnologias').style.display = 'flex';
+}
+
+function mostrarFrameworks() {
+	document.getElementById('tecnologias').style.display = 'none';
+	document.getElementById('linguagens').style.display = 'none';
+	document.getElementById('conhecimentos').style.display = 'none';
+	document.getElementById('experiencias').style.display = 'none';
+	document.getElementById('frameworks').style.display = 'flex';
+}
+
+function mostrarExperiencia(){
+	document.getElementById('tecnologias').style.display = 'none';
+	document.getElementById('linguagens').style.display = 'none';
+	document.getElementById('frameworks').style.display = 'none';
+	document.getElementById('conhecimentos').style.display = 'none';
+	document.getElementById('experiencias').style.display = 'flex';
+}
+
+function mostrarConhecimento(){
+	document.getElementById('tecnologias').style.display = 'none';
+	document.getElementById('linguagens').style.display = 'none';
+	document.getElementById('frameworks').style.display = 'none';
+	document.getElementById('experiencias').style.display = 'none';
+	document.getElementById('conhecimentos').style.display = 'flex';
 }

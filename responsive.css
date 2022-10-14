@@ -1,10 +1,10 @@
-@media (min-width: 900px) and (max-width: 1200px){
-    #arthurChagas{
+@media (min-width: 900px) and (max-width: 1200px) {
+    #arthurChagas {
         font-weight: 300;
         font-size: 30px;
     }
-    
-    #imgCode{
+
+    #imgCode {
         position: absolute;
         left: 80%;
         top: 50%;
@@ -13,20 +13,20 @@
     }
 }
 
-@media (min-width: 480px) and (max-width: 900px){
-    #arthurChagas{
+@media (min-width: 480px) and (max-width: 900px) {
+    #arthurChagas {
         font-weight: 300;
         font-size: 20px;
     }
 
-    #desenvolvedor{
+    #desenvolvedor {
         font-style: italic;
         font-weight: 200;
         text-align: center;
         font-size: 10px;
     }
-    
-    #imgCode{
+
+    #imgCode {
         position: absolute;
         left: 80%;
         top: 50%;
@@ -34,7 +34,7 @@
         width: 40px;
     }
 
-    #textos{
+    #textos {
         position: absolute;
         top: 50%;
         left: 30px;
@@ -42,27 +42,27 @@
     }
 }
 
-@media (min-width: 360px) and (max-width: 480px){
-    #arthurChagas{
+@media (min-width: 360px) and (max-width: 480px) {
+    #arthurChagas {
         font-weight: 300;
         font-size: 15px;
     }
 
-    #textos{
+    #textos {
         position: absolute;
         top: 50%;
         left: 20px;
         transform: translateY(-50%);
     }
 
-    #desenvolvedor{
+    #desenvolvedor {
         font-style: italic;
         font-weight: 200;
         text-align: center;
         font-size: 8px;
     }
-    
-    #imgCode{
+
+    #imgCode {
         position: absolute;
         left: 75%;
         top: 50%;
@@ -71,13 +71,13 @@
     }
 }
 
-@media (max-width: 360px){
-    #arthurChagas{
+@media (max-width: 360px) {
+    #arthurChagas {
         font-weight: 300;
         font-size: 15px;
     }
 
-    #textos{
+    #textos {
         position: absolute;
         top: 30%;
         translate: -50%;
@@ -85,14 +85,14 @@
         transform: translateY(-40%);
     }
 
-    #desenvolvedor{
+    #desenvolvedor {
         font-style: italic;
         font-weight: 200;
         text-align: center;
         font-size: 8px;
     }
-    
-    #imgCode{
+
+    #imgCode {
         position: absolute;
         left: 50%;
         translate: -50%;
@@ -102,7 +102,7 @@
     }
 }
 
-@media (min-width: 1150px) and (max-width: 1300px){
+@media (min-width: 1150px) and (max-width: 1300px) {
     .softSkills {
         border-radius: 10px;
         background-color: #8284c050;
@@ -114,7 +114,7 @@
         justify-items: center;
     }
 
-    .janelaSoftSkills{
+    .janelaSoftSkills {
         border-radius: 10px;
         background-color: #8284c0cd;
         display: none;
@@ -126,14 +126,14 @@
         width: 100%;
     }
 
-    .fa{
+    .fa {
         color: #8284c0;
         position: absolute;
         font-size: 80px;
     }
 }
 
-@media (min-width: 730px) and (max-width: 1150px){
+@media (min-width: 730px) and (max-width: 1150px) {
     .softSkills {
         border-radius: 10px;
         background-color: #8284c050;
@@ -145,7 +145,7 @@
         justify-items: center;
     }
 
-    .janelaSoftSkills{
+    .janelaSoftSkills {
         border-radius: 10px;
         background-color: #8284c0cd;
         display: none;
@@ -157,14 +157,14 @@
         width: 100%;
     }
 
-    .fa{
+    .fa {
         color: #8284c0;
         position: absolute;
         font-size: 50px;
     }
 }
 
-@media (min-width: 380px) and (max-width: 730px){
+@media (min-width: 380px) and (max-width: 730px) {
     .softSkills {
         border-radius: 10px;
         background-color: #8284c050;
@@ -176,7 +176,7 @@
         justify-items: center;
     }
 
-    .janelaSoftSkills{
+    .janelaSoftSkills {
         border-radius: 10px;
         background-color: #8284c0cd;
         display: none;
@@ -188,7 +188,7 @@
         width: 100%;
     }
 
-    .fa{
+    .fa {
         color: #8284c0;
         position: absolute;
         font-size: 40px;
@@ -206,7 +206,7 @@
     }
 }
 
-@media (max-width: 380px){
+@media (max-width: 380px) {
     .softSkills {
         border-radius: 10px;
         background-color: #8284c050;
@@ -218,7 +218,7 @@
         justify-items: center;
     }
 
-    .janelaSoftSkills{
+    .janelaSoftSkills {
         border-radius: 10px;
         background-color: #8284c0cd;
         display: none;
@@ -230,7 +230,7 @@
         width: 100%;
     }
 
-    .fa{
+    .fa {
         color: #8284c0;
         position: absolute;
         font-size: 40px;
@@ -248,8 +248,8 @@
     }
 }
 
-@media (min-width: 770px) and (max-width: 1200px){
-    #linhaCinza{
+@media (min-width: 770px) and (max-width: 1200px) {
+    #linhaCinza {
         width: 100%;
         height: 400px;
         background-color: #8284c050;
@@ -258,8 +258,8 @@
         justify-items: center;
         align-items: center;
     }
-    
-    #divEu{
+
+    #divEu {
         width: 70%;
         background: linear-gradient(90deg, rgba(95, 81, 190, 1) 0%, rgba(127, 117, 186, 1) 100%);
         position: absolute;
@@ -271,27 +271,27 @@
         text-align: center;
         flex-wrap: wrap;
     }
-    
-    #imgEu{
+
+    #imgEu {
         height: 60%;
         border-radius: 10px;
     }
-    
-    #divTexto{
+
+    #divTexto {
         width: 40%;
     }
-    
-    #textoEstudante{
+
+    #textoEstudante {
         font-weight: 200;
     }
 
-    #textoArthur{
+    #textoArthur {
         font-size: 25px;
     }
 }
 
-@media (min-width: 525px) and (max-width: 770px){
-    #linhaCinza{
+@media (min-width: 525px) and (max-width: 770px) {
+    #linhaCinza {
         width: 100%;
         height: 400px;
         background-color: #8284c050;
@@ -300,8 +300,8 @@
         justify-items: center;
         align-items: center;
     }
-    
-    #divEu{
+
+    #divEu {
         width: 80%;
         background: linear-gradient(90deg, rgba(95, 81, 190, 1) 0%, rgba(127, 117, 186, 1) 100%);
         position: absolute;
@@ -313,27 +313,27 @@
         text-align: center;
         flex-wrap: wrap;
     }
-    
-    #imgEu{
+
+    #imgEu {
         height: 60%;
         border-radius: 10px;
     }
-    
-    #divTexto{
+
+    #divTexto {
         width: 40%;
     }
-    
-    #textoEstudante{
+
+    #textoEstudante {
         font-weight: 200;
     }
 
-    #textoArthur{
+    #textoArthur {
         font-size: 20px;
     }
 }
 
-@media (min-width: 200px) and (max-width: 525px){
-    #linhaCinza{
+@media (min-width: 200px) and (max-width: 525px) {
+    #linhaCinza {
         width: 100%;
         height: 400px;
         background-color: #8284c050;
@@ -342,8 +342,8 @@
         justify-items: center;
         align-items: center;
     }
-    
-    #divEu{
+
+    #divEu {
         width: 80%;
         background: linear-gradient(90deg, rgba(95, 81, 190, 1) 0%, rgba(127, 117, 186, 1) 100%);
         position: absolute;
@@ -355,28 +355,28 @@
         text-align: center;
         flex-wrap: wrap;
     }
-    
-    #imgEu{
+
+    #imgEu {
         height: 50%;
         border-radius: 10px;
     }
-    
-    #divTexto{
+
+    #divTexto {
         width: 90%;
         margin-top: -100px;
     }
-    
-    #textoEstudante{
+
+    #textoEstudante {
         font-weight: 200;
     }
 
-    #textoArthur{
+    #textoArthur {
         font-size: 20px;
     }
 }
 
-@media (max-width: 400px){
-    #linhaCinza{
+@media (max-width: 400px) {
+    #linhaCinza {
         width: 100%;
         height: 400px;
         background-color: #8284c050;
@@ -385,8 +385,8 @@
         justify-items: center;
         align-items: center;
     }
-    
-    #divEu{
+
+    #divEu {
         width: 80%;
         background: linear-gradient(90deg, rgba(95, 81, 190, 1) 0%, rgba(127, 117, 186, 1) 100%);
         position: absolute;
@@ -398,22 +398,126 @@
         text-align: center;
         flex-wrap: wrap;
     }
-    
-    #imgEu{
+
+    #imgEu {
         height: 40%;
         border-radius: 10px;
     }
-    
-    #divTexto{
+
+    #divTexto {
         width: 100%;
         margin-top: -100px;
     }
-    
-    #textoEstudante{
+
+    #textoEstudante {
         font-weight: 200;
     }
 
-    #textoArthur{
+    #textoArthur {
         font-size: 20px;
+    }
+}
+
+@media (min-width: 420px) and (max-width: 640px) {
+    #hardSkills {
+        display: grid;
+        justify-items: center;
+        margin-top: 200px;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+    }
+
+    .hardSkills1 {
+        margin-left: 0%;
+    }
+}
+
+@media (max-width: 420px) {
+    #hardSkills {
+        display: grid;
+        justify-items: center;
+        margin-top: 200px;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+    }
+
+    .hardSkills1 {
+        margin-left: 0%;
+    }
+
+    #hardSkills3 {
+        width: 100%;
+        height: 300px;
+        background-color: #8284c016;
+        margin-top: 200px;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .hardSkills {
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        width: 90px;
+        height: 90px;
+        border-radius: 10px;
+        background-color: #4836bf60;
+        transform: rotate(45deg);
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    }
+
+    #textoDavid {
+        font-weight: 200;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 1060px) {
+    #hardSkills3 {
+        width: 100%;
+        height: 600px;
+        background-color: #8284c016;
+        margin-top: 50px;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 640px) {
+    #hardSkills3 {
+        width: 100%;
+        height: 600px;
+        background-color: #8284c016;
+        margin-top: 200px;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 303px) and (max-width: 500px) {
+    #hardSkills3 {
+        width: 100%;
+        height: 800px;
+        background-color: #8284c016;
+        margin-top: 200px;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 303px) {
+    #hardSkills3 {
+        width: 100%;
+        height: 1000px;
+        background-color: #8284c016;
+        margin-top: 150px;
+        display: grid;
+        justify-items: center;
+        align-items: center;
     }
 }
