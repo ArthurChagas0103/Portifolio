@@ -1,10 +1,10 @@
-@media (min-width: 900px) and (max-width: 1200px){
-    #arthurChagas{
+@media (min-width: 900px) and (max-width: 1200px) {
+    #sobreMim {
         font-weight: 300;
         font-size: 30px;
     }
-    
-    #imgCode{
+
+    #imgSobre {
         position: absolute;
         left: 80%;
         top: 50%;
@@ -13,20 +13,13 @@
     }
 }
 
-@media (min-width: 480px) and (max-width: 900px){
-    #arthurChagas{
+@media (min-width: 480px) and (max-width: 900px) {
+    #sobreMim {
         font-weight: 300;
         font-size: 20px;
     }
 
-    #desenvolvedor{
-        font-style: italic;
-        font-weight: 200;
-        text-align: center;
-        font-size: 10px;
-    }
-    
-    #imgCode{
+    #imgSobre {
         position: absolute;
         left: 80%;
         top: 50%;
@@ -34,7 +27,7 @@
         width: 40px;
     }
 
-    #textos{
+    #textos {
         position: absolute;
         top: 50%;
         left: 30px;
@@ -42,27 +35,20 @@
     }
 }
 
-@media (min-width: 360px) and (max-width: 480px){
-    #arthurChagas{
+@media (min-width: 360px) and (max-width: 480px) {
+    #sobreMim {
         font-weight: 300;
         font-size: 15px;
     }
 
-    #textos{
+    #textos {
         position: absolute;
         top: 50%;
         left: 20px;
         transform: translateY(-50%);
     }
 
-    #desenvolvedor{
-        font-style: italic;
-        font-weight: 200;
-        text-align: center;
-        font-size: 8px;
-    }
-    
-    #imgCode{
+    #imgSobre {
         position: absolute;
         left: 75%;
         top: 50%;
@@ -71,13 +57,13 @@
     }
 }
 
-@media (max-width: 360px){
-    #arthurChagas{
+@media (max-width: 360px) {
+    #sobreMim {
         font-weight: 300;
         font-size: 15px;
     }
 
-    #textos{
+    #textos {
         position: absolute;
         top: 30%;
         translate: -50%;
@@ -85,19 +71,40 @@
         transform: translateY(-40%);
     }
 
-    #desenvolvedor{
-        font-style: italic;
-        font-weight: 200;
-        text-align: center;
-        font-size: 8px;
-    }
-    
-    #imgCode{
+    #imgSobre {
         position: absolute;
         left: 50%;
         translate: -50%;
         top: 70%;
         transform: translateY(-70%);
         width: 40px;
+
+    }
+}
+
+@media (max-width: 700px) {
+    #textSobreMim {
+        font-weight: 200;
+        color: #818181;
+        text-align: justify;
+        width: 100%;
+        position: relative;
+        left: 50%;
+        translate: -50%;
+        margin-top: 30px;
+        background:
+            linear-gradient(to right, #4836BF 2px, transparent 4px) 0 0,
+            linear-gradient(to right, #4836BF 2px, transparent 4px) 0 100%,
+            linear-gradient(to left, #4836BF 2px, transparent 4px) 100% 0,
+            linear-gradient(to left, #4836BF 2px, transparent 4px) 100% 100%,
+            linear-gradient(to bottom, #4836BF 2px, transparent 4px) 0 0,
+            linear-gradient(to bottom, #4836BF 2px, transparent 4px) 100% 0,
+            linear-gradient(to top, #4836BF 2px, transparent 4px) 0 100%,
+            linear-gradient(to top, #4836BF 2px, transparent 4px) 100% 100%;
+        background-repeat: no-repeat;
+        background-size: 50% 50%;
+        padding: 30px;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
     }
 }

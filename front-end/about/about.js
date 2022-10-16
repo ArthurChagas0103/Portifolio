@@ -39,3 +39,13 @@ function findString(str) {
 	if (!strFound) alert("Texto '" + str + "' não encontrado!")
 	return;
 }
+
+function animacao() {
+	if (window.scrollY > 50 && window.scrollY < 800) {
+		document.getElementById('textSobreMim').style.animationName = 'diminui';
+	}
+	else{
+		document.getElementById('textSobreMim').style.animationName = 'cresce';
+	}
+}
+window.addEventListener('scroll', animacao)
