@@ -1,10 +1,10 @@
-@media (min-width: 900px) and (max-width: 1200px){
-    #arthurChagas{
+@media (min-width: 900px) and (max-width: 1200px) {
+    #projetos {
         font-weight: 300;
         font-size: 30px;
     }
-    
-    #imgCode{
+
+    #imgProjetos {
         position: absolute;
         left: 80%;
         top: 50%;
@@ -13,20 +13,13 @@
     }
 }
 
-@media (min-width: 480px) and (max-width: 900px){
-    #arthurChagas{
+@media (min-width: 480px) and (max-width: 900px) {
+    #projetos {
         font-weight: 300;
         font-size: 20px;
     }
 
-    #desenvolvedor{
-        font-style: italic;
-        font-weight: 200;
-        text-align: center;
-        font-size: 10px;
-    }
-    
-    #imgCode{
+    #imgProjetos {
         position: absolute;
         left: 80%;
         top: 50%;
@@ -34,7 +27,7 @@
         width: 40px;
     }
 
-    #textos{
+    #textos {
         position: absolute;
         top: 50%;
         left: 30px;
@@ -42,27 +35,20 @@
     }
 }
 
-@media (min-width: 360px) and (max-width: 480px){
-    #arthurChagas{
+@media (min-width: 360px) and (max-width: 480px) {
+    #projetos {
         font-weight: 300;
         font-size: 15px;
     }
 
-    #textos{
+    #textos {
         position: absolute;
         top: 50%;
         left: 20px;
         transform: translateY(-50%);
     }
 
-    #desenvolvedor{
-        font-style: italic;
-        font-weight: 200;
-        text-align: center;
-        font-size: 8px;
-    }
-    
-    #imgCode{
+    #imgProjetos {
         position: absolute;
         left: 75%;
         top: 50%;
@@ -71,13 +57,13 @@
     }
 }
 
-@media (max-width: 360px){
-    #arthurChagas{
+@media (max-width: 360px) {
+    #projetos {
         font-weight: 300;
         font-size: 15px;
     }
 
-    #textos{
+    #textos {
         position: absolute;
         top: 30%;
         translate: -50%;
@@ -85,14 +71,7 @@
         transform: translateY(-40%);
     }
 
-    #desenvolvedor{
-        font-style: italic;
-        font-weight: 200;
-        text-align: center;
-        font-size: 8px;
-    }
-    
-    #imgCode{
+    #imgProjetos {
         position: absolute;
         left: 50%;
         translate: -50%;
@@ -101,3 +80,201 @@
         width: 40px;
     }
 }
+
+@media (min-width: 1700px) and (max-width: 1800px) {
+    #divProjetos{
+        width: 90%;
+        margin-top: 50px;
+        height: 3400px;
+        background-color: #4836bf7c;
+        position: relative;
+        left: 50%;
+        translate: -50%;
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 1550px) and (max-width: 1700px) {
+    #divProjetos{
+        width: 90%;
+        margin-top: 50px;
+        height: 3300px;
+        background-color: #4836bf7c;
+        position: relative;
+        left: 50%;
+        translate: -50%;
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 1350px) and (max-width: 1550px) {
+    #divProjetos{
+        width: 90%;
+        margin-top: 50px;
+        height: 3250px;
+        background-color: #4836bf7c;
+        position: relative;
+        left: 50%;
+        translate: -50%;
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 710px) and (max-width: 1350px) {
+    #divProjetos{
+        width: 90%;
+        margin-top: 50px;
+        height: 3150px;
+        background-color: #4836bf7c;
+        position: relative;
+        left: 50%;
+        translate: -50%;
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 520px) and (max-width: 710px) {
+    #divProjetos{
+        width: 90%;
+        margin-top: 50px;
+        height: 3300px;
+        background-color: #4836bf7c;
+        position: relative;
+        left: 50%;
+        translate: -50%;
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 435px) and (max-width: 520px) {
+    .imgProjeto{
+        width: 80%;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+    #divProjetos{
+        width: 100%;
+        margin-top: 50px;
+        height: 3650px;
+        background-color: #4836bf7c;
+        position: relative;
+        left: 50%;
+        translate: -50%;
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 435px) {
+    .imgProjeto{
+        width: 80%;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+    #divProjetos{
+        width: 100%;
+        margin-top: 50px;
+        height: 3900px;
+        background-color: #4836bf7c;
+        position: relative;
+        left: 50%;
+        translate: -50%;
+        border-radius: 10px;
+    }
+} 
+
+@media (min-width: 343px) and (max-width: 360px) {
+    .imgProjeto{
+        width: 80%;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+    #divProjetos{
+        width: 100%;
+        margin-top: 50px;
+        height: 4000px;
+        background-color: #4836bf7c;
+        position: relative;
+        left: 50%;
+        translate: -50%;
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 325px) and (max-width: 343px) {
+    .imgProjeto{
+        width: 80%;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+    #divProjetos{
+        width: 100%;
+        margin-top: 50px;
+        height: 4100px;
+        background-color: #4836bf7c;
+        position: relative;
+        left: 50%;
+        translate: -50%;
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 306px) and (max-width: 325px) {
+    .imgProjeto{
+        width: 80%;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+    #divProjetos{
+        width: 100%;
+        margin-top: 50px;
+        height: 4200px;
+        background-color: #4836bf7c;
+        position: relative;
+        left: 50%;
+        translate: -50%;
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 286px) and (max-width: 306px) {
+    .imgProjeto{
+        width: 80%;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+    #divProjetos{
+        width: 100%;
+        margin-top: 50px;
+        height: 4300px;
+        background-color: #4836bf7c;
+        position: relative;
+        left: 50%;
+        translate: -50%;
+        border-radius: 10px;
+    }
+} 
+
+@media (max-width: 286px) {
+    .imgProjeto{
+        width: 80%;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+    #divProjetos{
+        width: 100%;
+        margin-top: 50px;
+        height: 4400px;
+        background-color: #4836bf7c;
+        position: relative;
+        left: 50%;
+        translate: -50%;
+        border-radius: 10px;
+    }
+} 

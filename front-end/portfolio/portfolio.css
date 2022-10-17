@@ -1,21 +1,16 @@
-#arthurChagas{
+#projetos {
     font-weight: 300;
 }
 
-#desenvolvedor{
-    font-style: italic;
-    font-weight: 200;
-    text-align: center;
-}
-
-#imgCode{
+#imgProjetos {
     position: absolute;
     left: 80%;
     top: 50%;
     transform: translateY(-50%);
+    width: 70px;
 }
 
-#textos{
+#textos {
     position: absolute;
     top: 50%;
     left: 100px;
@@ -26,4 +21,69 @@
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
+}
+
+#divProjetos{
+    width: 90%;
+    margin-top: 50px;
+    height: 3450px;
+    background-color: #4836bf7c;
+    position: relative;
+    left: 50%;
+    translate: -50%;
+    border-radius: 10px;
+}
+
+.projeto{
+    width: 90%;
+    background-color: whitesmoke;
+    position: relative;
+    left: 50%;
+    translate: -50%;
+    margin-top: 50px;
+    border-radius: 10px;
+    display: grid;
+    justify-items: center;
+    top: 50px;
+}
+
+.tituloProjeto{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.textProjeto{
+    font-weight: 200;
+    text-align: justify;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.imgProjeto{
+    width: 50%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.btn{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 150px;
+    height: 50px;
+    background-color: #4836bf7c !important;
+    border: #4836bf7c !important;
+}
+
+.btn:hover{
+    background-color: #4836bfa5 !important;
+}
+
+#tranca{
+    height: 250px;
+    width: 200px;
+}
+
+#salario{
+    height: 250px;
+    width: 200px;
 }
